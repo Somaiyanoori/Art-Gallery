@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+/*card*/
+.s {
+    border-radius: 8px;
+    transition: 1000ms all
+}
+
+.s:hover {
+    cursor: pointer;
+    transform: translateX(22px);
+}
+
+@media (max-width:600px) {
+    body {
+        padding: 10px;
+    }
+
+
+}
+
+@media (min-width:900px) {
+    body {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+}
